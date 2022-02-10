@@ -9,6 +9,8 @@ h5 {
 
 }
 
+
+
 .my-custom-row {
     max-height: 10vh;
 }
@@ -21,29 +23,36 @@ h5 {
     display: inline-block;
 }
 
-.my_image {
-    width: 20vw;
-    height: 100%;
-    border-radius: 50%;
 
-}
-
-.my_image {
-    overflow: hidden;
-}
 
 .card_list {
     font-size: 1.4rem;
 }
 
 .my_circle {
-    width: 100%;
-    height: 100%;
-
+    width: 20vw;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
 }
 
+.my_circle img {
+   
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
 .my_circle img{
    
+}
+
+/* Text Colors */
+
+.color_black {
+    color: black;
 }
 
 /* Backround Colors */
