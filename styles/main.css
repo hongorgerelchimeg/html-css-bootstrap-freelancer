@@ -35,3 +35,7 @@ h5 {
 .my_image {
     overflow: hidden;
 }
+
+.card_list {
+    font-size: 1.4rem;
+}
