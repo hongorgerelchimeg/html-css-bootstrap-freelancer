@@ -9,28 +9,8 @@ h5 {
 
 }
 
-
-
 .card_list {
     font-size: 1.4rem;
-}
-
-.my_circle {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5rem;
-}
-
-.my_circle img {
-   
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    object-position: center;
 }
 
 .my-dash {
@@ -41,7 +21,7 @@ h5 {
     margin: 0 1rem;
 }
 
-
+/* Hover effects */
 
 .nav-item .nav-link:hover {
     color: #1ABC9C!important;
@@ -65,4 +45,11 @@ h5 {
 
 .bg_red {
     background-color: #BB4B63;
+}
+
+.form-floating>.form-control {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-radius: 0;
 }
