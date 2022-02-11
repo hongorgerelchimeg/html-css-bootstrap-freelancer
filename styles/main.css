@@ -33,10 +33,28 @@ h5 {
     object-position: center;
 }
 
+.my-dash {
+    display: inline-block;
+    width: 5vw;
+    height: 2px;
+    background-color: white;
+    margin: 0 1rem;
+}
+
+
+
+.nav-item .nav-link:hover {
+    color: #1ABC9C!important;
+}
+
 /* Text Colors */
 
 .text_color_black {
     color: black;
+}
+
+.color-black {
+    background-color: black;
 }
 
 /* Backround Colors */
