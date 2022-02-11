@@ -1,0 +1,76 @@
+body {
+    color: white;
+    font-size: 0.8rem;
+}
+
+h5 {
+
+    line-height: 1.2;
+
+}
+
+.card_list {
+    font-size: 1.4rem;
+}
+
+.my-dash {
+    display: inline-block;
+    width: 5vw;
+    height: 2px;
+    background-color: white;
+    margin: 0 1rem;
+}
+
+/* Hover effects */
+
+.nav-item .nav-link:hover {
+    color: #1ABC9C!important;
+}
+
+/* Text Colors */
+
+.text_color_black {
+    color: black;
+}
+
+.color-black {
+    background-color: black;
+}
+
+/* Backround Colors */
+
+.bg_green {
+    background-color: #1ABC9C;
+}
+
+.bg_red {
+    background-color: #BB4B63;
+}
+
+.bg_blue {
+    background-color: rgba(0, 35, 85, 0.944);
+}
+
+.form-floating>.form-control {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-radius: 0;
+}
+
+/* Social Links */
+
+.social_links {
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 0 0.5rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #1ABC9C;
+}
+
