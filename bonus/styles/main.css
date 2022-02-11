@@ -69,9 +69,14 @@ h5 {
     margin: 0 0.5rem;
 }
 
-footer a {
+footer .about_freelancer a {
     text-decoration: none;
     color: #1ABC9C;
+}
+
+footer .about_freelancer a:hover {
+    text-decoration: line-through;
+    
 }
 
 .heart-beat {
@@ -85,7 +90,12 @@ footer a {
     animation-iteration-count: infinite;
     animation-duration: 2s;
     animation-direction: alternate;
-    margin-left: 0.5rem;
+    margin-left: 0.2rem;
+}
+
+.social_links a {
+    text-decoration: none;
+    color: white;
 }
 
 @keyframes heartbeat
@@ -93,25 +103,82 @@ footer a {
   0%
   {
     transform: scale( 1 );
+    color: white;
   }
   20%
   {
     transform: scale( 1.25 );
+    color: white;
   }
   40%
   {
     transform: scale( .75 );
+    color: red;
   }
   60%
   {
     transform: scale( 1.25 );
+    color: red;
   }
   80%
   {
     transform: scale( 1 );
+    color: red;
   }
   100%
   {
     transform: scale( 1.25 );
+    color: white;
   }
 }
+
+
+/* Bonus */
+
+.hover_item {
+    
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    transition: .5s ease;
+   
+}
+
+
+.hover_bg {
+    
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: calc( 100% - (var(--bs-gutter-x) * 1));
+    background-color: #1abc9c7d;
+    transition: .5s ease;
+}
+.hover_effect:hover .hover_item {
+    opacity: 1;
+}
+
+.hover_effect:hover img {
+    filter: brightness(0.8);
+
+}
+
+.hover_effect:hover .hover_bg {
+    opacity: 1;
+}
+
+
+/* Navbar */
+
+.navbar-collapse ul li {
+    line-height: 2;
+}
+
